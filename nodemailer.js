@@ -1,7 +1,7 @@
 const sgMail = require("@sendgrid/mail");
 const mongoose = require("mongoose");
 const User = mongoose.model("User");
-// const { SENDGRID_API } = your sendgrid api
+// const SENDGRID_API  = your sendgrid api
 
 function sedEmail(toEmail, userName, bdayData) {
   sgMail.setApiKey(SENDGRID_API);
