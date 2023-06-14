@@ -31,7 +31,7 @@ require("./models/user");
 app.use(express.json());
 app.use(require("./routes/auth"));
 app.use(require("./routes/user"));
-// require('./nodemailer');
+require('./nodemailer');
 
 if (process.env.NODE_ENV == "production") {
   app.use(express.static("client/build"));
