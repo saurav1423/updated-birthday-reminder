@@ -1,6 +1,7 @@
 # birthday-reminder
 
 add mongo uri in app.js
+
 add sendgrid api in nodemailer.js
 
 #sorry, project is not live
